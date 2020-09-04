@@ -1,0 +1,3 @@
+textElementParser = "(?<Sentences>[^{}[(\\d+\\.){2,}+.+\\n]]+\\n)" + "|" + "(?<Code>.*\\{\\n*(.*\\n)+?\\n*}\\n)"
+sentenceParser = "[.!?]+\\n*"
+sentenceElementParser = "(?<Word>\\w+)" + "|" + "(?<Sign>\\W+)"
